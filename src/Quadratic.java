@@ -72,7 +72,7 @@ public class Quadratic extends JFrame{
 		area = new TextArea();
 		area.setFont(new Font("Bookman Old Style", Font.PLAIN, 16));
 		area.setBounds(25, 170, 400, 580);
-                area.setEditable(False);
+                area.setEditable(false);
 		
 		contentPane.add(head);
 		contentPane.add(tf1);
