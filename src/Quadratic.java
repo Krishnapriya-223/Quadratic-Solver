@@ -12,10 +12,6 @@ import javax.swing.*;
 
 public class Quadratic extends JFrame{
 
-
-	/**
-	 * Launch the application.
-	 */
 	
 	private JPanel contentPane; 
 	JFormattedTextField tf1, tf2, tf3;
@@ -187,10 +183,5 @@ public class Quadratic extends JFrame{
 			}
 		});
 	}
-
-	/**
-	 * Create the frame.
-	 */
-	
 
 }
