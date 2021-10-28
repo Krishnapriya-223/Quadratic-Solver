@@ -15,8 +15,6 @@ public class Quadratic extends JFrame{
 	
 	//ax²+bx+c=0
 	
-	
-	
 	private JPanel contentPane; 
 	TextField tf1, tf2, tf3;
 	TextArea area;
