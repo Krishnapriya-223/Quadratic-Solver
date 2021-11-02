@@ -20,7 +20,7 @@ public class Quadratic extends JFrame{
 	TextArea area;
 	Button result, back;
 	Label head, lb1, lb2;
-		
+		 
 	
 	public Quadratic() {
 		setType(Type.POPUP);
