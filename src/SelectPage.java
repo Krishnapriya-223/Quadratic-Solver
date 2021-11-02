@@ -51,42 +51,42 @@ public class SelectPage extends JFrame {
 		
 		ButtonGroup bg = new ButtonGroup();
 		
-		r1 = new JRadioButton("ax²+bx+c=0");
+		r1 = new JRadioButton("axÂ²+bx+c=0");
 		r1.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r1.setBounds(75,170,250,20);
 		bg.add(r1);
 		
-		r2 = new JRadioButton("ax²-bx+c=0");
+		r2 = new JRadioButton("axÂ²-bx+c=0");
 		r2.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r2.setBounds(75,210,250,20);
 		bg.add(r2);
 		
-		r3 = new JRadioButton("ax²+bx-c=0");
+		r3 = new JRadioButton("axÂ²+bx-c=0");
 		r3.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r3.setBounds(75,250,250,20);
 		bg.add(r3);
 		
-		r4 = new JRadioButton("-ax²+bx+c=0");
+		r4 = new JRadioButton("-axÂ²+bx+c=0");
 		r4.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r4.setBounds(75,290,250,20);
 		bg.add(r4);
 		
-		r5 = new JRadioButton("ax²-bx-c=0");
+		r5 = new JRadioButton("axÂ²-bx-c=0");
 		r5.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r5.setBounds(75,330,250,20);
 		bg.add(r5);
 		
-		r6 = new JRadioButton("-ax²-bx+c=0");
+		r6 = new JRadioButton("-axÂ²-bx+c=0");
 		r6.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r6.setBounds(75,370,250,20);
 		bg.add(r6);
 		
-		r7 = new JRadioButton("-ax²+bx-c=0");
+		r7 = new JRadioButton("-axÂ²+bx-c=0");
 		r7.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r7.setBounds(75,410,250,20);
 		bg.add(r7);
 		
-		r8 = new JRadioButton("-ax²-bx-c=0");
+		r8 = new JRadioButton("-axÂ²-bx-c=0");
 		r8.setFont(new Font("Bookman Old Style", Font.PLAIN, 20));
 		r8.setBounds(75,450,250,20);
 		bg.add(r8);
@@ -168,7 +168,7 @@ public class SelectPage extends JFrame {
 					}
 					else
 					{
-						JOptionPane.showMessageDialog(null, "Select any one format from the above");
+						JOptionPane.showMessageDialog(null, "Please select any one format from the above");
 					}
 				}
 				catch(Exception error)
