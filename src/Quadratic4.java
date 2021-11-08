@@ -181,7 +181,7 @@ public class Quadratic4 extends JFrame{
 		}
 	}
 	
-	
+
 	
 	public class Page implements ActionListener
 	{
